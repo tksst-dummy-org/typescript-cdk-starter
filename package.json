@@ -12,8 +12,6 @@
     "url": "https://www.tks.st/"
   },
   "main": "dist/lib/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
   "bin": {
     "typescript-node-starter": "dist/bin/index.js"
   },
@@ -24,7 +22,6 @@
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
     "build:common": "tsc",
-    "build:esm": "tsc -p tsconfig.esm.json",
     "prepack": "npm run build",
     "watch": "tsc -w",
     "fix": "run-p fix:*",
