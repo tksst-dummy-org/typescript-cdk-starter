@@ -1,7 +1,7 @@
 {
   "extends": ".",
   "compilerOptions": {
-    "module": "ES2015",
+    "module": "ES2020",
     "declaration": true,
     "declarationMap": true,
     "outDir": "dist/esm"
