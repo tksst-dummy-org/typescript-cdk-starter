@@ -1,10 +1,10 @@
 {
-  "name": "typescript-node-starter",
+  "name": "typescript-cdk-starter",
   "version": "0.0.0-development",
   "private": true,
   "description": "",
-  "homepage": "https://github.com/tksst/typescript-node-starter",
-  "repository": "github:tksst/typescript-node-starter",
+  "homepage": "https://github.com/tksst/typescript-cdk-starter",
+  "repository": "github:tksst/typescript-cdk-starter",
   "license": "CC0",
   "author": {
     "name": "Takashi Sato",
